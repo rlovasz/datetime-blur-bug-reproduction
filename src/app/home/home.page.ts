@@ -9,4 +9,8 @@ export class HomePage {
 
   constructor() {}
 
+  onIonBlur(): void {
+    console.log('blur');
+  }
+
 }
